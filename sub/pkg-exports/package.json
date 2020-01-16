@@ -1,0 +1,15 @@
+{
+  "name": "pkg-mjs",
+  "version": "1.0.0",
+  "description": "Package which exports subpaths to ES modules",
+  "repository": "https://github.com/nalply/extless.git/sub/pkg-exports",
+  "type": "module",
+  "main": "main.js",
+  "exports": {
+    "./entry": "./entry.js",
+    "./entry.js": "./entry.js",
+    "./import-extless": "./import-extless.js",
+    "./import-withext.js": "./import-withext.js"
+  },
+  "license": "ISC"
+}

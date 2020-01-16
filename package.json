@@ -1,0 +1,15 @@
+{
+  "name": "extless-test",
+  "version": "1.0.0",
+  "description": "Test extension-less specifiers in Node packages",
+  "repository": "https://github.com/nalply/extless.git",
+  "type": "module",
+  "scripts": {
+    "start": "node runtests",
+    "prestart": "npm run symlink-pkgs",
+    "symlink-pkgs": "mkdir -f node_modules; cd node_modules; ln -s ../sub/* .",
+    "cleanup": "cd node_modules; rm pkg-type-module pkg-mjs pkg-exports"
+  },
+  "license": "ISC",
+  "dependencies": {}
+}

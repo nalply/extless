@@ -1,0 +1,8 @@
+{
+  "name": "pkg-mjs",
+  "version": "1.0.0",
+  "description": "Package which has ES modules with the extension .mjs",
+  "repository": "https://github.com/nalply/extless.git/sub/pkg-mjs",
+  "main": "entry.mjs",
+  "license": "ISC"
+}

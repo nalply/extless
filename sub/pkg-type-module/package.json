@@ -1,0 +1,9 @@
+{
+  "name": "pkg-type-module",
+  "version": "1.0.0",
+  "description": "Package of type module (all .js files are ES modules)",
+  "repository": "https://github.com/nalply/extless.git/sub/pkg-type-module",
+  "main": "entry.js",
+  "type": "module",
+  "license": "ISC"
+}
